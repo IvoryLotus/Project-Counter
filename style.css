@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;900&display=swap");
+:root {
+  --ff-primary: "Source Code Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
+  --fw-reg: 400;
+  --fw-bold: 900;
+
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent-blue: #3198aa;
+  --clr-accent-red: #5e1a1a;
+
+  --fs-h1: 2rem;
+  --fs-h2: 1.35rem;
+  --fs-h3: 1rem;
+  --fs-body: 0.75rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+  0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background-image: url(projects.png);
+  background-size: cover;
+  color: var(--clr-light);
+  font-family: var(--ff-primary);
+  text-align: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.appTitle {
+  font-size: var(--fs-h2);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.counter {
+  font-size: var(--fs-h1);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--clr-light);
+    font-weight: var(--fw-bold);
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.container {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  border: 1px solid var(--clr-dark);
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: var(--bs);
+}
+#increment-btn {
+    background: var(--clr-accent-red);
+}
+
+#save-btn {
+    background: var(--clr-accent-blue);
+}
